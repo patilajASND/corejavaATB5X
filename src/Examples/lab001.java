@@ -1,7 +1,7 @@
 package Examples;
 
 import java.util.Scanner;
-
+// Print even Numbers till N;
 public class lab001 {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
