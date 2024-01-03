@@ -11,7 +11,7 @@ public class lab003 {
             //outer loop
             for(j=1;j<=5;j++){
                if (i==1||j==1||i==n ||j==m){
-                   System.out.print("*");
+                   System.out.print( "*");
                }else{
                    System.out.print(" ");
                }
