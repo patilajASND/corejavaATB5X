@@ -8,6 +8,11 @@ public class Bankname {
     Bankname(){
         bankAccount= "Axis";
         balance= 241233;
+        System.out.println();
+    }
+    Bankname(String name,int Num){
+        this.balance=Num;
+        this.bankAccount=name;
     }
 
     void printdetails(){
