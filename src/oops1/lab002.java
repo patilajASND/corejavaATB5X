@@ -7,5 +7,7 @@ public class lab002 {
 
         Bankname p1 = new Bankname("icic", 1232);
         p1.printdetails();
+
+
     }
 }
