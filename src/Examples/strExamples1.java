@@ -3,6 +3,7 @@ package Examples;
 public class strExamples1 {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("hello");
+        /* sb.("omkar"); */
 
         for(int i=0;i<sb.length()/2;i++){
          int front=i;
