@@ -1,4 +1,4 @@
-package inhertance;
+package singleinhertance;
 
 public class java  extends programming{
 String newFeature;

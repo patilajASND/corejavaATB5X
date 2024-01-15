@@ -1,6 +1,4 @@
-package inhertance;
-
-import oops1.Programming;
+package singleinhertance;
 
 public class programming {
     String name;
@@ -8,6 +6,7 @@ public class programming {
     int version;
 
     programming (){
+        System.out.println(name);
         System.out.println("DC");
     }
     programming(String name, int version){
