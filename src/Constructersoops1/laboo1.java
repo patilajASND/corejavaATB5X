@@ -1,4 +1,4 @@
-package oops1;
+package Constructersoops1;
 
 public class laboo1 {
     public static void main(String[] args) {

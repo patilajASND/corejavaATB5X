@@ -1,4 +1,4 @@
-package oops1;
+package Constructersoops1;
 
 public class inhertance {
    // inheritance provides a way to create a new class from exising class
