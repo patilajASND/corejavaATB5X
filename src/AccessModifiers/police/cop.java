@@ -8,7 +8,7 @@ public class cop {
 
     }
 
-    private void canIShoot(){
-        System.out.println("off course");
+    protected void canIShoot(){
+        System.out.println("off course" + gun);
     }
 }
