@@ -12,5 +12,11 @@ public class lab002 {
         list.add(1,"omkar");
 
         System.out.println(list);
+        // list allows null value to the list
+        list.add(null);
+        list.add(null);
+
+        System.out.println(list);
+        System.out.println(list.get(3));
     }
 }
