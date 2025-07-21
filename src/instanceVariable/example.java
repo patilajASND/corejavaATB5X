@@ -10,5 +10,9 @@ public class example {
 
     static int a=99;
 
+    public static void main(String[] args) {
+        System.out.println("");
+    }
+
 }
 

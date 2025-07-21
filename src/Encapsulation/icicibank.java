@@ -1,6 +1,6 @@
 package Encapsulation;
 
-import java.sql.SQLOutput;
+
 
 public class icicibank {
     public String getName() {
@@ -24,21 +24,23 @@ public class icicibank {
 
     }
 
-    String name;
+    private String name;
 
 
-    long balance;
+      private long  balance;
 
 
-    public icicibank(String name, long balance) {
-        this.name = name;
-        this.balance = balance;
+    public  void icici(String name, long balance) {
+        System.out.println(this.name = name);
+        System.out.println(this.balance = balance);
     }
 
-    void print(){
-        System.out.println(name  +  balance);
-        System.out.println(getBalance());
 
-    }
+
+//    public void print(){
+//        System.out.println(name  +  balance);
+//        System.out.println(getBalance());
+//
+//    }
 
 }

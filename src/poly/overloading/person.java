@@ -6,11 +6,12 @@ public class person {
 //Multiple methods with same name but different argument
 
   //
-void speak(String a){
-    System.out.println("it is a String" + a);
-   }
+static void student (String a){
+    System.out.println("it is a String " + a);
 
-   void speak (int a){
+}
+
+    public void speak (int a){
        System.out.println("it is a int " + a);
    }
 
